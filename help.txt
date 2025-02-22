@@ -1,9 +1,4 @@
-# Deepstream-nvdsanalytics-Rest_Server
-Deepstream nvdsanalytics plugin with Rest Server support 
-
-
-
-This sample demonstrates nvdsanalytics  plguin control using Rest api server.
+This sample demonstrates control of nvdsanalytics using Rest api server within nvmultiruisrcbin
 Run install.sh  to install custom plugin with rest support
 
 
@@ -41,4 +36,7 @@ curl -XPOST 'http://localhost:9001/analytics/update' -d '{
         ]
     }
   }' 
+
+
+
 
